@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* Header with red-yellow-red pattern */
+header {
+    padding: 30px;
+    color: white;
+    background: linear-gradient(
+        to bottom,
+        #B30000 0%,
+        #B30000 33%,
+        #F4C430 33%,
+        #F4C430 66%,
+        #B30000 66%,
+        #B30000 100%
+    );
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #B30000;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
